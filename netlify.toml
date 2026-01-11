@@ -1,7 +1,12 @@
 [build]
-  base = "frontend-gestao-marketplace"
+  # Comando que gera a versão final do seu site
   command = "npm run build"
-  publish = "dist/frontend-gestao-marketplace/browser"
+  
+  # Pasta onde ficam os arquivos prontos (geralmente 'dist' para Vite ou 'build' para React)
+  publish = "dist"
 
-[build.environment]
-  NODE_VERSION = "25.2.1"
+[[redirects]]
+  # Isso evita erros 404 ao atualizar a página em apps de página única (SPA)
+  from = "/*"
+  to = "/index.html"
+  status = 200
