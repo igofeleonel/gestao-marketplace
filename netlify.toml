@@ -1,3 +1,7 @@
 [build]
+  # Esta linha diz ao Netlify para entrar na pasta do projeto
+  base = "frontend-gestao-marketplace"
+  
+  # Agora os comandos abaixo rodam DENTRO da pasta acima
   command = "npm run build"
   publish = "dist/frontend-gestao-marketplace/browser"
