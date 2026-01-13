@@ -1,4 +1,4 @@
-# 🚀 Desafio de lançamento do curso de Angular na Rocketseat
+# 🚀 Gestão Marketplace Angular
 
 ### ⚠️ **Instruções Importantes**
 
